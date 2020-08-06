@@ -2615,7 +2615,7 @@ a {
   }
 }
 .cid-s6Iaxsj1dY {
-  background-image: url("../../../assets/images/background6.jpg");
+  background-image: url("../../../assets/images/construction-370588-1920-1920x1280.jpg");
 }
 .cid-s6Iaxsj1dY .mbr-text,
 .cid-s6Iaxsj1dY .mbr-section-btn {
@@ -2625,8 +2625,86 @@ a {
   color: #ff9966;
 }
 .cid-s6IazIXQY8 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-s6IvvWNy9J {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-s6IvvWNy9J .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-s6IvvWNy9J .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-s6IvvWNy9J .counter-container ol li {
+  list-style: none;
+  padding-left: 1rem;
+  position: relative;
+}
+.cid-s6IvvWNy9J .counter-container ol li:before {
+  position: absolute;
+  left: -40px;
+  margin-top: 5px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #6592e6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cid-s6IvxLOf9v {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-s6IwCdqBiZ {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-s6IwCdqBiZ .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-s6IwCdqBiZ .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-s6IwCdqBiZ .counter-container ol li {
+  list-style: none;
+  padding-left: 1rem;
+  position: relative;
+}
+.cid-s6IwCdqBiZ .counter-container ol li:before {
+  position: absolute;
+  left: -40px;
+  margin-top: 5px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #6592e6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cid-s6Ix3RVac3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
 }
 .cid-s48P1Icc8J {
