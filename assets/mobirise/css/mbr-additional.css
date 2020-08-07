@@ -3158,6 +3158,28 @@ a {
 .cid-s6V3nLxzNg .counter-container ol li {
   margin-bottom: 1rem;
 }
+.cid-s70IHVqt4n {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fafafa;
+}
+.cid-s70IHVqt4n .mbr-iconfont {
+  display: block;
+  font-size: 4rem;
+  color: #8caff0;
+  margin-bottom: 2rem;
+}
+.cid-s70IHVqt4n .card-wrapper {
+  min-height: 220px;
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding: 1rem;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
 .cid-s6TQDyx0yZ {
   padding-top: 2rem;
   padding-bottom: 2rem;
