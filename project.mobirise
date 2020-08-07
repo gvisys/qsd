@@ -48,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
-    "uniqCompNum": 61,
+    "uniqCompNum": 65,
     "versionPublish": "5.0.16",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -3179,7 +3179,23 @@
             "background-color": "@bgColor"
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Projeto básico</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">No estudo do arranjo físico do empreendimento desenvolvido no projeto conceitual,\nobtem-se a planta de locação geral (“plot-plan”), relacionando as várias unidades de\nprodução entre si, e vinvulando-as com as unidades administrativas.<br><br>A interligação de todas essas unidades típicas devem, no entanto, obedecer a uma\nsérie de premissas, normas e recomendações que permitam estabelecer para cada\nunidade no rranjo físico, qual a localização mais compatível com as funções que a\nmesma deve desempenhar, quais as restrições impostas, etc.<br><br>Para exemplificar, uma casa de caldeiras deve estar próxima dos pontos principais de\nonsumo a vapor. De maneira análoga, uma subestação de energia elétrica deve estar\npróxima dos equipamentos e painéis principais que serão alimentados por esta\nsubestação.<br><br>Desta forma, a fim de facilitar este estudo, que muito influirá na futura operação, cada unidade deve ser analisada individualmente, bem como seus fatores de localização.\n<br>Uma vez definida a localização relativa da unidade no arranjo físico, será importante\neterminar ainda os elementos BÁSICOS para seu dimensionamento e a área\nrequerida para sua instalação, definindo-se também os métodos construtivos\nrecomendados para sua execução.<br><br>Assim, entra em “cena” a elaboração do chamado “projeto básico”. Somente após\ndefinido estes três parâmetros fundamentais do projeto básico (localização, dimensões\ne características contrutivas) é que será iniciado efetivamente o detalhamento do\nprojeto.<br><br>Um projeto básico visa reunir as informações iniciais relativas a um empreendimento,\nestudar as alternativas existentes e apresentá-las de forma ordenada sob o aspecto de\ndesenhos preliminares, memoriais descritivos e critérios de projeto. A documentação\ntécnica gerada no projeto básico permite em geral a preparação de cronogramas e\nestimativas de custo de referência.<br><br>Os projetos básicos se destinam a consolidar diversos aspectos de engenharia de uma\nplanta, antes que sejam efetuados dispêndios importantes com a aquisição de\ncomponentes e execução de obras, tais como:<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Premissas:</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Este documento tem o objetivo de orientar os interessados na etapa de contratação de engenharia executiva demonstrando os conceitos, objetos e escopo de uma engenharia executiva.<br><br>O proponente deve realizar reuniões no local do contratante para início do projeto (kick off), levantamento de campo e mais duas reuniões de andamento do projeto e de entrega, sem onerar em custos adicionais.&nbsp;</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V72NelXD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-1s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Conceito:</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Os projetos detalhados, também chamados de \"executivos\", se destinam a fornecer os\nelementos para a construção e montagem de uma obra e ou serviço. O conjunto de informações\nnecessárias e suficientes para a elaboração de um projeto executivo são aquelas que\ncomumente são definidas como projeto básico e ou extraida de necessidades do <b>contratante</b>, que, como visto, representa uma etapa\nprévia do desenvolvimento do projeto detalhado, em que se consolidam as condições técnico-econômicas e operacionais do projeto e se estabelecem os requisitos para a contratação de uma solução.<br><br>Engenharia de Detalhamento é a etapa subseqüente à Engenharia Básica, onde se\ndetalharão todos os parâmetros de engenharia de uma obra eou serviço, os quais permitirão comprar\nos materiais e componentes complementares, tais como tubulações, válvulas,\ninstrumentos, projeto elétrico, automação industrial, etc.<br><br>O detalhamento do projeto será a fase definitiva para a implantação física da obra.<br><br>Hoje é possível a montagem de um projeto virtual para análise e ajuda para a discrição\ndos detalhes já mencionados, visando e antecipando possíveis falhas, possibilitando\nsuas correções antes mesmo da montagem física, como mostrada na figura abaixo.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s6TQDxU8Aq",
           "_anchor": "content2-1j",
           "_protectedParams": [],
@@ -3192,6 +3208,38 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Objeto:</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                    Contratação de empresa especializada para execução de serviço de engenharia executiva, com especialidade em sistemas de segurança e em sistemas de detecção de gases, o <b>proponete</b> vencedora deve fornecer o registro da&nbsp; respectiva Anotação de Responsabilidade - ART (ou o Registro de Responsabilidade Técnica&nbsp; – RRT), identificação do autor e sua&nbsp; ssinatura em cada uma das peças gráficas e&nbsp; documentos produzidos.<br><br>O proponente deve fornecer em sua entrega final um conjunto de documentos editáveis e data book impresso com toda a documentação.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6UWQ3XJ0i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-1p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Escopo de fornecimento</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Nessa&nbsp; fase, a <b>proponente </b>deverá apresentar os detalhamentos das implantações das\n<br>soluções, entregando à CONTRATANTE os seguintes produtos:<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V0T4fsVw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-1q"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
             ".counter-container": {
               "ol": {
@@ -3231,97 +3279,13 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-text mbr-fonts-style counter-container col-12 col-md-{{textWidth}}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Permitir a obtenção das diversas aprovações em órgãos públicos ou\n&nbsp;<span style=\"font-size: 1.2rem;\">financeiros;</span></li>\n                    <li>Permitir a compra dos equipamentos e a contratação de serviços necessários\n&nbsp;<span style=\"font-size: 1.2rem;\">para a implantação do empreendimento ou instalação;</span></li>\n                    <li>Permitir a elaboração de cronogramas de implantação e estimativas de custo&nbsp;<span style=\"font-size: 1.2rem;\">de referência mais detalhados.</span></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s6TQDy3fNY",
-          "_anchor": "content6-1k",
+          "_customHTML": "<section class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-text mbr-fonts-style counter-container col-12 col-md-{{textWidth}}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Plantas de todas as instalações com as distribuições dos equipamentos. \n</li><li>Plantas de todas as infraestruturas lógicas. \n</li><li>Planta de rotas de cabos e infraestrutura. \n</li><li>Planta de cortes demonstrando encaminhamento. \n</li><li>Detalhes típicos de fixação dos equipamentos. \n</li><li>Diagrama logico de blocos. \n</li><li>Diagrama unifilar de logica do sistema. \n</li><li>Diagrama unifilar e tri filar de elétrica. \n</li><li>Listas detalhadas de equipamentos e materiais da instalação. \n</li><li>Folhas de dados dos equipamentos.  \n</li><li>Lista de cabos de para. \n</li><li>Memória de cálculo do diagrama elétrico. \n</li><li>Memorial descritivo detalhado para RFP.&nbsp;</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V3nLxzNg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content2",
-          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Nesta etapa são desenvolvidas atividades tais como: definição e especificação das\ncaracterísticas técnicas finais dos produtos e processos de produção, elaboração dos\nfluxogramas de engenharia, elaboração das memórias de cálculo, elaboração dos\nleiautes das unidades de produção e utilidades, elaboração das especificações técnicas\nde compra dos equipamentos, serviços e materiais, etc.<br><br>O projeto básico consiste, pois, na elaboração, a partir das informações resultantes do\nprojeto conceitual, de todas as atividades e dos documentos finais de engenharia que\npermitam a elaboração de requisições técnicas para a compra dos equipamentos,\nmateriais, sistemas, obras e serviços e a geração de dados e informações necessários\nao desenvolvimento da engenharia de detalhamento para a implantação do\nempreendimento.<br><br>Os documentos produzidos nesta etapa terão o nível de detalhe suficiente para a\ncompleta definição do escopo de fornecimento de equipamentos e os subsídios\nessenciais ao desenvolvimento da etapa posterior de engenharia detalhada.\nCompreende, em geral, as seguintes atividades:<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s6TQDyah42",
-          "_anchor": "content2-1l",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".counter-container": {
-              "ol": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
-                    "list-style": "none",
-                    "padding-left": "1rem",
-                    "position": "relative",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-40px",
-                      "margin-top": "5px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
-                      "line-height": "40px",
-                      "transition": "all .2s",
-                      "color": "contrast(@iconColor)",
-                      "background": "@iconColor",
-                      "width": "40px",
-                      "height": "40px",
-                      "border-radius": "50%",
-                      "display": "flex",
-                      "align-items": "center",
-                      "justify-content": "center",
-                      "& when (@squareCounters)": {
-                        "border-radius": "0"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "_name": "content6",
-          "_customHTML": "<section class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"iconColor\" title=\"Color\" value=\"#6592e6\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-text mbr-fonts-style counter-container col-12 col-md-{{textWidth}}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li>Especificação, dimensionamento e arranjo de equipamentos e outros\n&nbsp;<span style=\"font-size: 1.2rem;\">componentes físicos, tais como máquinas, calderaria, equipamentos&nbsp;&nbsp;</span><span style=\"font-size: 1.2rem;\">industriais, motores e geradores elétricos, transformadores, quadros elétricos&nbsp;</span><span style=\"font-size: 1.2rem;\">de distribuição e comando, fornos, estruturas, utilidades, etc;</span></li><li><span style=\"font-size: 1.2rem;\">Elaboração de especificações mecânicas, elétricas, civis, entre outras;</span></li><li><span style=\"font-size: 1.2rem;\">Dimensionamento geral dos equipamentos;</span></li><li><span style=\"font-size: 1.2rem;\">Especificação e seleção de materiais e componentes;</span></li><li><span style=\"font-size: 1.2rem;\">Atendimento à normas, padrões técnicos e comerciais e critérios de cálculos e\n&nbsp;</span>de projeto;</li><li>Orientação geral para o detalhamento.</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s6TQDyiBpv",
-          "_anchor": "content6-1m",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content2",
-          "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Os serviços de engenharia relacionados nesta etapa deverão ser desenvolvidos por\nequipe multidisciplinar, liderada em cada disciplina por profissionais capacitados,\nconforme o exposto nos documentos referenciados.<br><br>Esta etapa da engenharia se insere no contexto da fase FEL 3 de desenvolvimento do empreendimento.<br><br>Com referência ao histórico da indústria, as definições resultantes desta etapa da\nengenharia, na média mundial, suportam estimativas de investimento com imprecisões\nna faixa entre –10% a + 10%. No Brasil, algumas publicações chegam a fazer\nreferência a uma taxa de incerteza de 15 a 30%.<br><br><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s6TQDyps6X",
-          "_anchor": "content2-1n",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content6-1r"
         },
         {
           "alias": false,
