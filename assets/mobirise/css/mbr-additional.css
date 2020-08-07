@@ -1684,10 +1684,10 @@ a {
   align-items: center;
 }
 .cid-s6DQh6hmtM .img1 {
-  background: #ffe161;
+  background: #ff9966;
 }
 .cid-s6DQh6hmtM .img2 {
-  background: #6592e6;
+  background: #4479d9;
 }
 .cid-s6DQh6hmtM .mbr-iconfont {
   display: block;
@@ -1736,93 +1736,6 @@ a {
 .cid-s6DQh6hmtM .mbr-text,
 .cid-s6DQh6hmtM .link-wrap {
   color: #555555;
-}
-.cid-s6TLhbv7yc {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-s6TLhbv7yc .card-box {
-  padding: 2rem;
-  width: 58.33%;
-}
-.cid-s6TLhbv7yc .img-wrapper {
-  width: 41.66%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cid-s6TLhbv7yc .img1 {
-  background: #ff9966;
-}
-.cid-s6TLhbv7yc .img2 {
-  background: #2299aa;
-}
-.cid-s6TLhbv7yc .mbr-iconfont {
-  display: block;
-  font-size: 8rem;
-  color: #ffffff;
-  margin-bottom: 2rem;
-}
-.cid-s6TLhbv7yc .card {
-  margin: auto;
-  min-height: 280px;
-  transition: all 0.3s;
-}
-.cid-s6TLhbv7yc .card-wrapper {
-  background: #fafafa;
-  border-radius: 4px;
-  display: flex;
-  overflow: hidden;
-  justify-content: space-between;
-}
-@media (max-width: 992px) {
-  .cid-s6TLhbv7yc .card-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-s6TLhbv7yc .card-wrapper {
-    flex-direction: column;
-  }
-  .cid-s6TLhbv7yc .card-box {
-    padding: 1rem;
-  }
-  .cid-s6TLhbv7yc .card-box,
-  .cid-s6TLhbv7yc .img-wrapper {
-    width: 100%;
-  }
-  .cid-s6TLhbv7yc .img-wrapper {
-    padding: 4rem 1rem;
-  }
-  .cid-s6TLhbv7yc .mbr-flex {
-    flex-direction: column-reverse;
-  }
-}
-.cid-s6TLhbv7yc .card-subtitle {
-  color: #0077ff;
-}
-.cid-s6TLhbv7yc .mbr-text,
-.cid-s6TLhbv7yc .link-wrap {
-  color: #555555;
-}
-.cid-s6TLI1LEdd {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-s6TLI1LEdd .card-wrapper {
-  border-radius: 4px;
-  background: #fafafa;
-  margin-bottom: 2rem;
-}
-.cid-s6TLI1LEdd .card-box {
-  padding: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-s6TLI1LEdd .card-box {
-    padding: 1rem;
-  }
 }
 .cid-s48P1Icc8J {
   padding-top: 2rem;
